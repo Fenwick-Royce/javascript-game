@@ -2,7 +2,7 @@
     padding: 0;
     margin: 0
 }
-#game{
+.game{
     width: 5000px;
     height: 200px;
     border: 1px solid black;
@@ -14,11 +14,10 @@
     background-color: red;
     position: relative;
     top: 150px;
-    animation: jump 500ms infinite;
 }
 
-.animate {
-    animation: jump 500ms;
+.animate{
+    animation: jump 0.3s linear;
 }
 
 @keyframes jump{
